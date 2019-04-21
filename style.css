@@ -1,5 +1,6 @@
 body {
-  background-color: white;
+  /* background-color: white; */
+  background-color: black;
 }
 
 body {
@@ -21,4 +22,21 @@ body {
 
 .showing {
   display: block;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
